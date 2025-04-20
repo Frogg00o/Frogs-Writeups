@@ -1,0 +1,15 @@
+
+### LIKE1000
+
+Wget 1000.tar
+
+Tar -xf returns another tar file, this time 999 tar, making me think that theres quite a few
+
+Wrote a very simple (dumb) script to unzip in decreasing order using a for loop
+
+for i in {1000..1}
+do
+  tar -xf $i.tar
+done
+
+Turns it into a PNG file, open that up and copy over the flag
