@@ -1,0 +1,15 @@
+### Irish-Name-Repo 1
+
+Link has a page with admin panel, support section mentions an sql error, sql injection?
+
+admin;-- did not work
+
+Going to run sqlmap on the admin panel
+Theres a debug value, use that?
+
+Run Caido if SQLmap does not work to check that debug value
+SQLmap comes back with a payload!
+Did not work 
+
+Fuzzed generic SQL injections with admin user and got flag!
+picoCTF{s0m3_SQL_fb3fe2ad}

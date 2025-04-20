@@ -1,0 +1,13 @@
+### What Lies Within
+# SOmething inside the building
+Downloaded the PNG file into my folder, first thing was to look at it 
+Its a building!
+
+Used file on the PNG, didnt see anything of interest (yet atleast)
+
+Used img_cat then piped it into strings for easier reading
+Then checked img_stat, Nada
+
+Finally, I used zsteg on it and found the flag!
+
+picoCTF{h1d1ng_1n_th3_b1t5}
